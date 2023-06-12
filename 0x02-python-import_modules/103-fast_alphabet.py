@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-import sys
-sys.stdout.buffer.write(bytes(range(65, 91)))
-sys.stdout.buffer.write(b'\n')
+import sys; from string import ascii_uppercase as alphabet
+sys.stdout.buffer.write(bytes(map(ord, alphabet))); sys.stdout.buffer.write(b'\n')
