@@ -1,11 +1,20 @@
-#1/usr/bin/python3
-"""Defines load_from_json_file function."""
-
+#!/usr/bin/python3
+"""
+Defines a function to load an object from a JSON file.
+"""
 
 import json
 
 
 def load_from_json_file(filename):
-    """Creates an object from a JSON file."""
-    with open(filename) as f:
-        return json.load(f)
+    """
+    Loads an object from a JSON file.
+
+    Args:
+        filename (str): The name of the JSON file.
+
+    Returns:
+        The object loaded from the JSON file.
+    """
+    with open(filename, 'r') as file:
+        return json.load(file)
