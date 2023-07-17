@@ -6,14 +6,16 @@ class BaseGeometry:
     """
     A base class representing basic geometry.
 
-    This class provides methods for calculating area and validating integers.
+    This class provides methods for calculating area and
+    validating integers.
     """
     def area(self):
         """
         Calculates the area of the geometry.
 
         Raises:
-            NotImplementedError: Always raises an exception with the message 'area() is not implemented'.
+            NotImplementedError: Always raises an exception with
+            the message 'area() is not implemented'.
         """
         raise NotImplementedError('area() is not implemented')
 
@@ -39,7 +41,8 @@ class Rectangle(BaseGeometry):
     """
     A class representing a rectangle.
 
-    This class inherits from the BaseGeometry class and adds width and height properties.
+    This class inherits from the BaseGeometry class
+    and adds width and height properties.
     """
     def __init__(self, width, height):
         """
