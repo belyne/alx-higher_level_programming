@@ -3,6 +3,7 @@
 Defines a MyInt class that inherits from int.
 """
 
+
 class MyInt(int):
     """
     Represents a rebel integer.
