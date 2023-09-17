@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+"""Lists all states from the database hbtn_0e_0_usa
+This script connects to a MySQL server and retrieves a list of states
+from the database hbtn_0e_0_usa. It then prints the results to the console.
+
+Usage:
+    ./0-select_states.py <username> <password> <database_name>
+"""
+
 import MySQLdb
 import sys
 
