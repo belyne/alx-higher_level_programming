@@ -14,4 +14,4 @@ payload = {'email': email}
 response = requests.post(url, data=payload)
 content = response.text
 
-print("Your email is:", email)
+print(content)

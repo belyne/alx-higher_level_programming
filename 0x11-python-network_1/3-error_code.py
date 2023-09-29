@@ -9,9 +9,11 @@ import sys
 
 url = sys.argv[1]
 
+request = urllib.request.Request(url)
+
 try:
-    with urllib.request.urlopen(url) as response:
+    with urllib.request.urlopen(request) as response:
         content = response.read()
-    print(content.decode('utf-8'))
+    print(content.decode("ascii"))
 except urllib.error.HTTPError as e:
     print("Error code:", e.code)

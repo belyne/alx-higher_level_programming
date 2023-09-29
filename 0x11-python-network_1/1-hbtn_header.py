@@ -9,7 +9,5 @@ import sys
 
 url = sys.argv[1]
 
-with urllib.request.urlopen(url) as response:
-    header = response.getheader('X-Request-Id')
-
-print(header)
+with urllib.request.urlopen(request) as response:
+    print(dict(response.headers).get("X-Request-Id"))
