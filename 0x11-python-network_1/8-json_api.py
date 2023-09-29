@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Takes a letter, sends a POST request to http://0.0.0.0:5000/search_user, and displays the response
+Takes a letter, sends a POST request to
+http://0.0.0.0:5000/search_user, and displays the response
 """
 
 import requests

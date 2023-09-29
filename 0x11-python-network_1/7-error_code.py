@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Takes a URL, sends a request, and displays the response body or an error code if >= 400
+Takes a URL, sends a request, and displays
+the response body or an error code if >= 400
 """
 
 import requests

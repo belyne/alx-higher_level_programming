@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Takes a URL, sends a request, and displays the value of X-Request-Id in the response header
+Takes a URL, sends a request, and displays the value
+of X-Request-Id in the response header
 """
 
 import requests

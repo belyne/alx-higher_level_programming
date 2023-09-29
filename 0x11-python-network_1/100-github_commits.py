@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Fetches the latest 10 commits from a specified repository and owner using the GitHub API
+Fetches the latest 10 commits from a specified
+repository and owner using the GitHub API
 """
 
 import requests
